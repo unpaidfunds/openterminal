@@ -23,6 +23,8 @@ It's a research tool, not a trading app, and nothing in it is investment advice.
   <img src="images/ycrv.jpg" width="49%" alt="US Treasury yield curve" />
 </p>
 
+![Shipping lanes, chokepoints and ports](images/ship.jpg)
+
 ## Download
 
 Get `MacOS.zip` from the [latest release](../../releases/latest), unzip it and move **Open Terminal.app** to Applications. It's unsigned, so right-click it and choose Open the first time.
