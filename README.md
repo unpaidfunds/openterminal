@@ -11,6 +11,18 @@ It's a research tool, not a trading app, and nothing in it is investment advice.
   <img src="images/eco.jpg" width="49%" alt="Macro dashboard" />
 </p>
 
+![Home launchpad with the S&P 500 heatmap](images/home.jpg)
+
+<p>
+  <img src="images/hmap.jpg" width="49%" alt="Market heatmap" />
+  <img src="images/gp.jpg" width="49%" alt="Advanced chart" />
+</p>
+
+<p>
+  <img src="images/wei.jpg" width="49%" alt="World equity indices" />
+  <img src="images/ycrv.jpg" width="49%" alt="US Treasury yield curve" />
+</p>
+
 ## Download
 
 Get `MacOS.zip` from the [latest release](../../releases/latest), unzip it and move **Open Terminal.app** to Applications. It's unsigned, so right-click it and choose Open the first time.
