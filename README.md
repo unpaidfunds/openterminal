@@ -4,13 +4,6 @@ A Bloomberg-style research terminal for the Mac, built only on free public data 
 
 It's a research tool, not a trading app, and nothing in it is investment advice.
 
-![Financials](images/fa.jpg)
-
-<p>
-  <img src="images/des.jpg" width="49%" alt="Description and EV bridge" />
-  <img src="images/eco.jpg" width="49%" alt="Macro dashboard" />
-</p>
-
 ![Home launchpad with the S&P 500 heatmap](images/home.jpg)
 
 <p>
