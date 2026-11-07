@@ -18,6 +18,15 @@ It's a research tool, not a trading app, and nothing in it is investment advice.
 
 ![Shipping lanes, chokepoints and ports](images/ship.jpg)
 
+![Stock dashboard under the Q chart](images/q.jpg)
+
+<p>
+  <img src="images/cal.jpg" width="49%" alt="Economic calendar, USD red folder" />
+  <img src="images/pairs.jpg" width="49%" alt="Pairs divergence scanner" />
+</p>
+
+![Efficient frontier](images/front.jpg)
+
 ## Download
 
 Get `MacOS.zip` from the [latest release](../../releases/latest), unzip it and move **Open Terminal.app** to Applications. It's unsigned, so right-click it and choose Open the first time.
@@ -26,6 +35,7 @@ Two optional keys unlock a couple of screens. Add them under **SETTINGS** in the
 
 - **SEC user agent** (your name and email, no account needed) for `CF` and the SEC cross-check in `FA`
 - **FRED API key** (free) for the US tiles in `ECO`
+- **AI key** and **AISStream key** (both optional) for `AI` and live ships in `SHIP`
 
 ## Commands
 
@@ -47,6 +57,16 @@ Two optional keys unlock a couple of screens. Add them under **SETTINGS** in the
 | `BRIEF <TICKER> [PEERS…]` | Research brief built only from the terminal's data: Summary (3 bullets) → Key facts (every number with a numbered source) → What it means (rule-based signals) → Risks / what's uncertain → Sources (links + timestamps). Add peers for a premium/discount vs the peer median, e.g. `BRIEF SU.PA SIE.DE ABBN.SW ETN` |
 | `REP` / `REP <#>` | Saved briefs: list, reopen, export to Markdown, delete |
 | `CF <TICKER>` | SEC filings (10-K, 10-Q, 20-F, 6-K, 8-K, proxies) with links; filter by ANNUAL / QUARTERLY / EVENTS / PROXY |
+| `HMAP` / `MOST` / `EQS` | Market heatmap (S&P 500, Nasdaq 100, Dow, DAX, Euro Stoxx 50, CAC, FTSE), movers, equity screener |
+| `WEI` / `FXC` / `GLCO` / `YCRV` | World indices, FX cross matrix, commodity futures, Treasury and euro yield curves |
+| `GP` / `HP` / `OMON` / `ANR` / `ERN` / `HDS` / `DVD` | Advanced chart, price history, options, analysts, earnings, holders, dividends |
+| `GP <T1> <T2> …` | Compare up to 8 tickers rebased to 100, with a relative-performance pane |
+| `CAL` / `ECON` | Economic calendar with the high-impact "red folder" (e.g. `CAL USD HIGH`) and a countdown to the next event |
+| `WB` / `CBRT` | World government bond yields (2Y–30Y, 21 countries) / central-bank policy rates (15 banks) |
+| `CORR` / `PAIRS` | Correlation heatmap; divergence scanner for correlated pairs whose spread has stretched, with cointegration test, half-life and pair backtest |
+| `RISK` / `FRONT` / `BT` | Volatility, drawdown, VaR/CVaR and beta; efficient frontier; backtester (sma, rsi, breakout, meanrev, pair) |
+| `SHIP` | World shipping lanes, chokepoints and ports; live vessels with a free AISStream key |
+| `AI` | Optional assistant, bring your own key (OpenAI, Anthropic, NVIDIA, Hugging Face, OpenRouter, Groq, local models) |
 | `HELP` | All commands and shortcuts |
 
 Bloomberg order works too: `SU.PA DES`, `AAPL Q 5Y`, `SAN.MC CN`, `SHEL.L FA`.
